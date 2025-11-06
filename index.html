@@ -1,24 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>primera pagina</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Otaku Hub - Página de Anime</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <a href="contactenos.html"> click aqui a contactanos</a>
-    <a href="producto.html">click a productos</a>
-    <h1>titulo de la pagina</h1>
-    <h2>tengo hambre</h2>
-    <h3>tengo sueño</h3>
-    <h4>si soy capaz</h4>
-    <h5>soy el mejor</h5>
-    <h6>si puedo</h6>
 
-    <p>el parrafo debe ser dentro de las etiquetas</p>
-    <a href="contactenos.html"> click aqui a contactanos</a>
-    <a href="producto.html">click a productos</a>
+  <header>
+    <div class="logo">🌸 Animelrealet</div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#quienes">Quiénes Somos</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#contacto">Contáctanos</a>
+    </nav>
+  </header>
 
-    
+  <section id="inicio" class="hero">
+    <h1>Bienvenido a Animelrealet</h1>
+    <p>Tu portal de anime favorito. Aquí encontrarás reseñas, imágenes y todo lo que necesitas sobre tus series preferidas.</p>
+    <a href="#catalogo" class="btn">Ver Catálogo</a>
+  </section>
+
+  <section id="quienes" class="about">
+    <h2>Quiénes Somos</h2>
+    <p> Soy una persona que le gusta el anime y que quiero que los demas puedan disfrutar de todas estas maravillosas historias que hacen que un dia normal sea mas interesante</p>
+    <img src="elreal.et.jpg" alt="Imagen de anime">
+  </section>
+
+  <section id="catalogo" class="catalogo">
+    <h2>Catálogo de Animes recomendados</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="naruto.jpg" alt="Anime 1">
+        <h3>naruto shippudent</h3>
+        <p>Un joven ninja descubre un poder oculto que puede cambiar el destino del mundo.</p>
+      </div>
+      <div class="card">
+        <img src="dragonball.jpg" alt="Anime 2">
+        <h3>Dragonball Super</h3>
+        <p>Unete a la historia de los guerreros z</p>
+      </div>
+      <div class="card">
+        <img src="onepiece.jpg" alt="Anime 3">
+        <h3>Onepiece</h3>
+        <p>Un viajante por el mundo en busca de aventuras</p>
+      </div>
+    </div>
+  </section>
+
+  
+
+
+  <section id="catalogo" class="catalogo">
+  <h2>Sugerencias de animes</h2>
+  <div class="grid">
+
+    <div class="card">
+      <img src="mejores-anime-de-aventuras.webp" alt="Naruto">
+      <h3>Aventuras</h3>
+      <p><strong>Género:</strong> Shonen, Acción, Aventura</p>
+      <p><strong>Año:</strong> 2002</p>
+      <p>super animes de aventuras para todos  </p>
+    </div>
+
+    <div class="card">
+      <img src="descarga.jpg" alt="Attack on Titan">
+      <h3>Romance en el anime</h3>
+      <p><strong>Género:</strong> Acción, Drama, Fantasía, romance</p>
+      <p><strong>Año:</strong> 2013</p>
+      <p>animes de romance y seduccion para todos cargados de emocion</p>
+    </div>
+
+  </div>
+</section>
+
+<center>
+  <table width="90%">
+    <tr>
+      <td align="center">
+        <video width="420" height="260" autoplay controls>
+          <source src="video.mp4" type="video/mp4">
+          Tu navegador no soporta la etiqueta de video.
+        </video>
+      </td>
+      <td align="center">
+        <video width="540" height="260" autoplay controls>
+          <source src="dragonvideo.mp4" type="video/mp4">
+          Tu navegador no soporta la etiqueta de video.
+        </video>
+      </td>
+      <td align="center">
+        <video width="420" height="260" autoplay controls>
+          <source src="videoplayback.mp4" type="video/mp4">
+          Tu navegador no soporta la etiqueta de video.
+        </video>
+      </td>
+    </tr>
+  </table>
+</center>
+
+
+<section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <form>
+      <label>Nombre:</label>
+      <input type="text" placeholder="Tu nombre" required>
+
+      <label>Correo electrónico:</label>
+      <input type="email" placeholder="ejemplo@correo.com" required>
+
+      <label>Mensaje:</label>
+      <textarea rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Animelrealet | Página creada por Elkin Tamara</p>
+  </footer>
+
+
+
 </body>
 </html>
